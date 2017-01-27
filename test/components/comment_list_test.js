@@ -17,8 +17,8 @@ describe('CommentList Tests', () => {
   })
 
   it('show all the comments in a given list', () => {
-    // expect(component.find('li')[0]).to.have.text('First comment');
-    // expect(component.find('li')[1]).to.have.text('next comment');
+    // expect(component.find('li')).to.have.text('First comment');
+    // expect(component.find('li')).to.have.text('next comment');
     expect(component).to.contain('First comment');
     expect(component).to.contain('next comment');
   })
